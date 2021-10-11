@@ -322,6 +322,23 @@ margin-right: 14px;
   }
 }
 @media (max-width: 470px) {
+  .session-month {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .session-day {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .session-week {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .legend-label {
+    flex-direction: column;
+    align-items: start;
+    margin-right: 15px;
+  }
   .price {
     flex-direction: column;
   }
@@ -333,6 +350,8 @@ margin-right: 14px;
   }
   .session-day-item {
     margin-bottom: 20px;
+    width: 75px;
+    height: 75px;
   }
   .session-date {
     flex-basis: auto;
